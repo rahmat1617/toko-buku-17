@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+        <link rel="stylesheet" href="css/styleKeranjangEnglish.css">
+        <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/numericBox.js"></script>
+    </head>
+    <body>
+        <!-- header1 -->
+        <div id="header">
+            <div class="w3-container">
+                <div class="w3-container w3-cell">
+                    <a href="katalog.html"style="text-decoration: none"><h1 id="title">R17 Book</h1></a>
+                </div>
+                <div class="w3-container w3-cell">
+                    <nav id="flag">
+                        <div class="w3-cell">
+                            <div id="nav" class="w3-bar w3-bar-item" >
+                                <a class="link" href="keranjangBelanja-english.html">
+                                    <img src="asset/England.png" style="width: 35px;height: 20px;">
+                                </a>
+                                <a class="link"href="keranjangBelanja.html">
+                                    <img src="asset/Indonesia.jpg" style="width: 35px;height: 20px;">
+                                </a>
+                                <a class="link"href="keranjangBelanja-english.html">
+                                    <img src="asset/usa.jpg" style="width: 35px;height: 20px;">
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </nav>		
+                </div>
+            </div>
+        </div>
+        <!-- header2 -->
+        <div id="header2">
+            <div class="w3-container">
+                <div class="w3-container w3-cell">
+                    <nav id="nav2" class="">
+                        <a id="iconKeranjang"><i class="fas fa-shopping-cart"></i></a>
+                        <a id="keranjangBelanja">Shopping Cart</a>
+                        <a id="profil">Welcome, Hana</a>
+                    </nav>		
+                </div>
+            </div>
+        </div>
+
+        <div style="" id="kolom">
+            <nav>
+                <a class="w3-padding"><input type="checkbox">Product</a>
+                <a id="hargaSatuan">Price</a>
+                <a id="kuantitas">Quantity</a>
+                <a id="totalHarga">Total Price</a>
+                <a id="aksi">Action</a>
+            </nav>
+        </div>
+
+        <div style="" id="content">
+            <nav>
+                <a class="w3-padding"><input type="checkbox"><img src="asset/Seeking Crystal.jpg"></a>
+                <a id="judulBuku">Seeking Crystal</a>
+                <a id="hargaBuku">Rp 68.000</a>
+                <a id="jumlahBuku" class="quantity buttons_added"><input type="button" value="-" class="minus"><input id="qty_buku" type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="" style="border: 1px solid black;"><input type="button" value="+" class="plus"></a>
+                <a id="totalHargaBuku">Rp 68.000</a>
+                <!-- <a id="tempatSampah"><i class="far fa-trash-alt"></i></i></a> -->
+                <button onclick="document.getElementById('id01').style.display='block'" id="tempatSampah"><i class="far fa-trash-alt"></i></button>
+                    
+                    <div id="id01" class="w3-modal" >
+                        <div class="w3-modal-content w3-card-4">
+                          <header class="w3-container w3-teal"> 
+                            <span onclick="document.getElementById('id01').style.display='none'" 
+                            class="w3-button w3-display-topright">&times;</span>
+                            <br></br>
+                          </header>
+                          <div class="w3-container">
+                              
+                            <center><p>Do you want to delete this product?</p>
+                                <button class="w3-button w3-teal" onclick="document.location='keranjangBelanja.html'">No</button>
+                                <button class="w3-button w3-red" onclick="document.location='keranjangBelanjaKosong.html'" style="margin-left: 70px;">Yes</button>
+                            </center>
+                           
+                            <br></br>
+                          </div>
+                          
+                        </div>
+                    </div>
+            </nav>
+        </div>
+
+        <div style="" id="foot">
+            <nav>
+                <a id="total">TOTAL</a>
+                <a id="totalProduk">Total (1 product)</a>
+                <a id="totalRp">Rp 68.000</a>
+                <a id="btnCheckout"><button style="background-color: red; color: white; border-color: red;" onclick="document.location='pembayaran-english.html'">Checkout</button></a>
+            </nav>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Galgony";
+    src: url('../font/Galgony.ttf');
+}
+
+/* Header1 */
+.link {
+    transition: 0.3s ease;
+    color: #ffffffb0;
+    font-size: 25px;
+    padding: 20px 0;
+    margin: 0 20px;
+    text-decoration: none;
+  }
+.link:hover {
+    color: floralwhite;
+    padding: 1px 0; 
+}
+#header{
+    background-color: #4D8581;
+}
+#title{
+    font-family: "Galgony";
+    color: ivory;
+    
+}
+#flag{
+    margin: 0px 0px 0px 841px;
+    margin-top: 15px;
+    
+
+}
+/* header2 */
+#header2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #DBCBBE;
+    color:#4D8581;
+    
+}
+
+#header2 .searchbar{
+ margin-left: 100px;
+ font-size: 13px;
+ width: 150px;
+ text-align: center;
+}
+#header2 #user{
+    margin-left: 200px;
+}
+input{
+    width: 500px;
+    border-radius:10px;
+    border-color: #4D8581;
+}
+#search{
+    padding-left: 80px;
+}
+#profil{
+    color: #4D8581;
+    padding-left: 10px;
+    font-size: large;
+    margin-left: 865px;
+}
+.sort{
+   text-decoration: none;
+   font-size:large;
+   margin-left: 30px;
+}
+#keranjang{
+    margin-left: 70px;
+}
+.floating-button{
+    background: #4D8581;
+    color: #FFFFFF;
+    padding: 3px 12px;
+    border-radius: 20px;
+    position: fixed;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 1px 3px 5px #ccc;
+    bottom: 20px;
+    right: 20px;
+}
+img {
+    cursor: pointer;
+    width: 230px;
+    height: 300px;
+}
+.content{
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.btn-keranjang{
+    border-color: #4D8581;
+    color: #4D8581;
+    border-radius: 30px;
+    border: solid;
+    font-size: medium;
+    padding: 10px;
+
+}
+.btn-beli{
+    background-color:#4D8581;
+    color: white;
+    border-radius: 30px;
+    border: solid;
+    font-size: medium;
+    padding: 10px;
+    
+
+}
+.btn-beli:hover{
+    border-color: #4D8581;
+    color: #4D8581;
+    border-radius: 30px;
+    border: solid;
+    font-size: medium;
+    padding: 10px;
+
+}
+#subtotal{
+    color: #4D8581;;
+}
+.vertical {
+    border-left: 5px solid black;
+    height: 10px;
+}
+.bayar{
+    
+    border-radius: 20px;    
+    border-style: solid;
+    border-color: #4D8581;
+}
+.detail2{
+    margin-left: 10px;
+}
+
+.transaksi{
+    padding: 15px;
+}
+i {
+    color:#4D8581;
+}
+#sinopsis{
+    text-align: justify;
+}
+#detailBuku{
+    font-size: 20px;
+    margin-left: 20px;
+}
+#review{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#reviewUser{
+    text-align: justify;
+}

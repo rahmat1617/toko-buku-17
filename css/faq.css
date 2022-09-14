@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Galgony";
+    src: url('../font/Galgony.ttf');
+}
+.link {
+    transition: 0.3s ease;
+    color: #ffffffb0;
+    font-size: 20px;
+    padding: 20px 0;
+    margin: 0 20px;
+    text-decoration: none;
+  }
+
+#header{
+    background-color: #ee6e05;
+}
+#title{
+    font-family: "Galgony";
+    color: ivory;
+    
+}
+#flag{
+    margin: 0px 0px 0px 850px;
+    margin-top: 15px;
+}
+#header2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #DBCBBE;
+    color:#4D8581;
+    
+  
+}
+
+#sp{
+    padding-right: 25px;
+}
+.content{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top : 10px;
+}
+.deskripsi{
+    padding: 1.5%;
+    
+}
+.title{
+    color:#4D8581 ;
+}
+.fa, .fas{
+    margin-right: 1%;
+    color: #4D8581;
+}
+.w3-bar-item{
+    color: #4D8581;
+    text-decoration: none;
+}
+.sticky {
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+  }
+hr{
+    height: 1px;
+    /* Set the hr color */
+    color: grey; /* old IE */
+    background-color: grey; /* Modern Browsers */
+}
+#faq{
+    font-size: x-large;
+}

@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "Galgony";
+    src: url('../font/Galgony.ttf');
+}
+body{
+   background-color: #EEEBE8;
+}
+/* Header1 */
+.link {
+    transition: 0.3s ease;
+    color: #ffffffb0;
+    font-size: 25px;
+    padding: 20px 0;
+    margin: 0 20px;
+    text-decoration: none;
+  }
+.link:hover {
+    color: floralwhite;
+    padding: 1px 0; 
+}
+#header{
+    background-color: #4D8581;
+}
+#title{
+    font-family: "Galgony";
+    color: ivory;
+    
+}
+#flag{
+    margin: 0px 0px 0px 841px;
+    margin-top: 15px;
+    
+
+}
+/* header2 */
+#header2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #DBCBBE;
+    color:#4D8581;
+    
+}
+#header2 #user{
+    margin-left: 200px;
+}
+
+#profil{
+    color: #4D8581;
+    padding-left: 10px;
+    font-size: large;
+    margin-left: 861px;
+}
+
+#keranjang{
+    margin-left: 70px;
+}
+
+img {
+    cursor: pointer;
+    width: 230px;
+    height: 300px;
+}
+
+i{
+    color:#4D8581;
+}
+
+body{
+    background-color: #EEEBE8;
+}
+
+#iconKeranjang{
+    font-size: 25px;
+}
+
+#keranjangBelanja {
+    font-size: 20px;
+    margin-left: 6px;
+}
+
+#kolom{
+    background-color: white;
+    color: #4D8581;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#hargaSatuan{
+    margin-left: 435px;
+}
+
+#kuantitas{
+    margin-left: 147px;
+}
+
+#totalHarga{
+    margin-left: 122px;
+}
+
+#aksi{
+    margin-left: 95px;
+}
+
+#content{
+    background-color: white;
+    color: #4D8581;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#judulBuku{
+    font-weight: bold;
+}
+
+#hargaBuku{
+    margin-left: 140px;
+}
+
+#jumlahBuku{
+    margin-left: 100px;
+}
+
+#totalHargaBuku{
+    margin-left: 105px;
+}
+
+#tempatSampah{
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+#foot{
+    background-color: white;
+    color: #4D8581;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#total{
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#totalProduk{
+    margin-left: 600px;
+}
+
+#totalRp{
+    margin-left: 50px;
+}
+
+#btnCheckout{
+    margin-left: 55px;
+}
+
+/* -- quantity box -- */
+
+.quantity {
+    display: inline-block; 
+}
+   
+.quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+}
+   
+.quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle; 
+}
+   
+.quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+}
+   
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    cursor:pointer;
+}
+   
+.quantity.buttons_added .minus {
+    border-right: 0; 
+}
+   
+.quantity.buttons_added .plus {
+    border-left: 0; 
+}
+   
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+    background: #eeeeee; 
+}
+   
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; 
+}
+    
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+    outline: none; 
+}
